@@ -1,0 +1,17 @@
+C:\Users\eldar\source\repos\Checkers\Checkers\bin\Debug\Checkers.exe.config
+C:\Users\eldar\source\repos\Checkers\Checkers\bin\Debug\Checkers.exe
+C:\Users\eldar\source\repos\Checkers\Checkers\bin\Debug\Checkers.pdb
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers.csproj.AssemblyReference.cache
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers.csproj.SuggestedBindingRedirects.cache
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\MainWindow.g.cs
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\App.g.cs
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers_MarkupCompile.cache
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers_MarkupCompile.lref
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\MainWindow.baml
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers.g.resources
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers.Properties.Resources.resources
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers.csproj.GenerateResource.cache
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers.csproj.CoreCompileInputs.cache
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers.exe
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\Checkers.pdb
+C:\Users\eldar\source\repos\Checkers\Checkers\obj\Debug\App.baml
