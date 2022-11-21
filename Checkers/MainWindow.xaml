@@ -30,77 +30,218 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <!-- Row 0-->
-                <Grid Grid.Row="0" Grid.Column="0" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="0" Grid.Column="1" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="0" Grid.Column="2" Background="{StaticResource DarkField}" ></Grid>
-                <Grid Grid.Row="0" Grid.Column="3" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="0" Grid.Column="4" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="0" Grid.Column="5" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="0" Grid.Column="6" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="0" Grid.Column="7" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="0" Grid.Column="0" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="0" Grid.Column="1" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="1" Grid.Row="0" ></Button>
+                </Grid>
+                <Grid Grid.Row="0" Grid.Column="2" Background="{StaticResource BrightField}" ></Grid>
+                <Grid Grid.Row="0" Grid.Column="3" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="3" Grid.Row="0" ></Button>
+                </Grid>
+                <Grid Grid.Row="0" Grid.Column="4" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="0" Grid.Column="5" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="5" Grid.Row="0" ></Button>
+                </Grid>
+                <Grid Grid.Row="0" Grid.Column="6" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="0" Grid.Column="7" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="7" Grid.Row="0" ></Button>
+                </Grid>
                 <!--Row 1-->
-                <Grid Grid.Row="1" Grid.Column="0" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="1" Grid.Column="1" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="1" Grid.Column="2" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="1" Grid.Column="3" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="1" Grid.Column="4" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="1" Grid.Column="5" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="1" Grid.Column="6" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="1" Grid.Column="7" Background="{StaticResource DarkField}"></Grid>
+                <Grid Grid.Row="1" Grid.Column="0" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="0" Grid.Row="1" ></Button>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="1" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="1" Grid.Column="2" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="2" Grid.Row="1" ></Button>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="3" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="1" Grid.Column="4" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="4" Grid.Row="1" ></Button>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="5" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="1" Grid.Column="6" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="6" Grid.Row="1" ></Button>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="7" Background="{StaticResource BrightField}"></Grid>
                 <!--Row 2-->
-                <Grid Grid.Row="2" Grid.Column="0" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="2" Grid.Column="1" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="2" Grid.Column="2" Background="{StaticResource DarkField}" ></Grid>
-                <Grid Grid.Row="2" Grid.Column="3" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="2" Grid.Column="4" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="2" Grid.Column="5" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="2" Grid.Column="6" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="2" Grid.Column="7" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="2" Grid.Column="0" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="2" Grid.Column="1" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="1" Grid.Row="2" ></Button>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="2" Background="{StaticResource BrightField}" ></Grid>
+                <Grid Grid.Row="2" Grid.Column="3" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="3" Grid.Row="2" ></Button>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="4" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="2" Grid.Column="5" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="5" Grid.Row="2" ></Button>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="6" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="2" Grid.Column="7" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="7" Grid.Row="2" ></Button>
+                </Grid>
                 <!--Row 3-->
-                <Grid Grid.Row="3" Grid.Column="0" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="3" Grid.Column="1" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="3" Grid.Column="2" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="3" Grid.Column="3" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="3" Grid.Column="4" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="3" Grid.Column="5" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="3" Grid.Column="6" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="3" Grid.Column="7" Background="{StaticResource DarkField}"></Grid>
+                <Grid Grid.Row="3" Grid.Column="0" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="0" Grid.Row="3" ></Button>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="1" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="3" Grid.Column="2" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="2" Grid.Row="3" ></Button>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="3" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="3" Grid.Column="4" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="4" Grid.Row="3" ></Button>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="5" Background="{StaticResource BrightField}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="7*"/>
+                    </Grid.RowDefinitions>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="6" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="6" Grid.Row="3" ></Button>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="7" Background="{StaticResource BrightField}"></Grid>
                 <!--Row 4-->
-                <Grid Grid.Row="4" Grid.Column="0" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="4" Grid.Column="1" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="4" Grid.Column="2" Background="{StaticResource DarkField}" ></Grid>
-                <Grid Grid.Row="4" Grid.Column="3" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="4" Grid.Column="4" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="4" Grid.Column="5" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="4" Grid.Column="6" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="4" Grid.Column="7" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="4" Grid.Column="0" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="4" Grid.Column="1" Background="{StaticResource DarkField}">
+                   <Button Background="Transparent" Click="Field_Click" Grid.Column="1" Grid.Row="4" ></Button>
+                </Grid>
+                <Grid Grid.Row="4" Grid.Column="2" Background="{StaticResource BrightField}" ></Grid>
+                <Grid Grid.Row="4" Grid.Column="3" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="3" Grid.Row="4" ></Button>
+                </Grid>
+                <Grid Grid.Row="4" Grid.Column="4" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="4" Grid.Column="5" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="5" Grid.Row="4" ></Button>
+                </Grid>
+                <Grid Grid.Row="4" Grid.Column="6" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="4" Grid.Column="7" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="7" Grid.Row="4" ></Button>
+                </Grid>
                 <!--Row 5-->
-                <Grid Grid.Row="5" Grid.Column="0" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="5" Grid.Column="1" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="5" Grid.Column="2" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="5" Grid.Column="3" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="5" Grid.Column="4" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="5" Grid.Column="5" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="5" Grid.Column="6" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="5" Grid.Column="7" Background="{StaticResource DarkField}"></Grid>
+                <Grid Grid.Row="5" Grid.Column="0" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="0" Grid.Row="5" ></Button>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="1" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="5" Grid.Column="2" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="2" Grid.Row="5" ></Button>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="3" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="5" Grid.Column="4" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="4" Grid.Row="5" ></Button>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="5" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="5" Grid.Column="6" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="6" Grid.Row="5" ></Button>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="7" Background="{StaticResource BrightField}"></Grid>
                 <!--Row 6-->
-                <Grid Grid.Row="6" Grid.Column="0" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="6" Grid.Column="1" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="6" Grid.Column="2" Background="{StaticResource DarkField}" ></Grid>
-                <Grid Grid.Row="6" Grid.Column="3" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="6" Grid.Column="4" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="6" Grid.Column="5" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="6" Grid.Column="6" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="6" Grid.Column="7" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="6" Grid.Column="0" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="6" Grid.Column="1" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="1" Grid.Row="6" ></Button>
+                </Grid>
+                <Grid Grid.Row="6" Grid.Column="2" Background="{StaticResource BrightField}" ></Grid>
+                <Grid Grid.Row="6" Grid.Column="3" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="3" Grid.Row="6" ></Button>
+                </Grid>
+                <Grid Grid.Row="6" Grid.Column="4" Background="{StaticResource BrightField}" Grid.ColumnSpan="2" Height="87" Margin="0,0,87,0" VerticalAlignment="Bottom"></Grid>
+                <Grid Grid.Row="6" Grid.Column="5" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="5" Grid.Row="6" ></Button>
+                </Grid>
+                <Grid Grid.Row="6" Grid.Column="6" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="6" Grid.Column="7" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="7" Grid.Row="6" ></Button>
+                </Grid>
                 <!--Row 7-->
-                <Grid Grid.Row="7" Grid.Column="0" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="7" Grid.Column="1" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="7" Grid.Column="2" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="7" Grid.Column="3" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="7" Grid.Column="4" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="7" Grid.Column="5" Background="{StaticResource DarkField}"></Grid>
-                <Grid Grid.Row="7" Grid.Column="6" Background="{StaticResource BrightField}"></Grid>
-                <Grid Grid.Row="7" Grid.Column="7" Background="{StaticResource DarkField}"></Grid>
+                <Grid Grid.Row="7" Grid.Column="0" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="0" Grid.Row="7" ></Button>
+                </Grid>
+                <Grid Grid.Row="7" Grid.Column="1" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="7" Grid.Column="2" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="2" Grid.Row="7" ></Button>
+                </Grid>
+                <Grid Grid.Row="7" Grid.Column="3" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="7" Grid.Column="4" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="4" Grid.Row="7" ></Button>
+                </Grid>
+                <Grid Grid.Row="7" Grid.Column="5" Background="{StaticResource BrightField}"></Grid>
+                <Grid Grid.Row="7" Grid.Column="6" Background="{StaticResource DarkField}">
+                    <Button Background="Transparent" Click="Field_Click" Grid.Column="6" Grid.Row="7" ></Button>
+                </Grid>
+                <Grid Grid.Row="7" Grid.Column="7" Background="{StaticResource BrightField}"></Grid>
+                <Button x:Name="w1" Background="Transparent" Grid.Row="5" Grid.Column="0" Click="White_Click">
+                <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w2" Background="Transparent" Grid.Row="5" Grid.Column="2" Click="White_Click" >
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w3" Background="Transparent" Grid.Row="5" Grid.Column="4" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w4" Background="Transparent" Grid.Row="5" Grid.Column="6" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w5" Background="Transparent" Grid.Row="6" Grid.Column="1" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w6" Background="Transparent" Grid.Row="6" Grid.Column="3" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w7" Background="Transparent" Grid.Row="6" Grid.Column="5" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w8" Background="Transparent" Grid.Row="6" Grid.Column="7" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w9" Background="Transparent" Grid.Row="7" Grid.Column="0" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w10" Background="Transparent" Grid.Row="7" Grid.Column="2" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w11" Background="Transparent" Grid.Row="7" Grid.Column="4" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="w12" Background="Transparent" Grid.Row="7" Grid.Column="6" Click="White_Click">
+                    <Image Source="Image/White.png"/>
+                </Button>
+                <Button x:Name="b1" Background="Transparent" Grid.Row="0" Grid.Column="1" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b2" Background="Transparent" Grid.Row="0" Grid.Column="3" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b3" Background="Transparent" Grid.Row="0" Grid.Column="5" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b4" Background="Transparent" Grid.Row="0" Grid.Column="7" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b5" Background="Transparent" Grid.Row="1" Grid.Column="0" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b6" Background="Transparent" Grid.Row="1" Grid.Column="2" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b7" Background="Transparent" Grid.Row="1" Grid.Column="4" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b8" Background="Transparent" Grid.Row="1" Grid.Column="6" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b9" Background="Transparent" Grid.Row="2" Grid.Column="1" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b10" Background="Transparent" Grid.Row="2" Grid.Column="3" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b11" Background="Transparent" Grid.Row="2" Grid.Column="5" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
+                <Button x:Name="b12" Background="Transparent" Grid.Row="2" Grid.Column="7" Click="Black_Click">
+                    <Image Source="Image/Black.png"/>
+                </Button>
             </Grid>
         </Border>
     </Grid>
