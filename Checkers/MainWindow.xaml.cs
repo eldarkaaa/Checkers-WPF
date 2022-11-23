@@ -20,7 +20,7 @@ namespace Checkers
     /// </summary>
     public partial class MainWindow : Window
     {
-        bool player1_move = true, player2_move=false;
+        bool player1_move = true, player2_move=false, player1_must_attack = false, player2_must_attack = false;
         int FieldRow, FieldColumn, WhiteRow, WhiteColumn, BlackRow, BlackColumn;
         Button white = new Button();
         Button black = new Button();
@@ -35,9 +35,9 @@ namespace Checkers
             field = (Button)sender;
             FieldRow = Grid.GetRow(field);
             FieldColumn = Grid.GetColumn(field);
-            if (player1_move && white != null)
+            if (player1_move)
             {
-                if (FieldColumn - WhiteColumn <= 1 && WhiteColumn - FieldColumn <= 1 && WhiteRow - FieldRow == 1)
+                if (FieldColumn - WhiteColumn <= 1 && WhiteColumn - FieldColumn <= 1 && WhiteRow - FieldRow == 1) // white piece move
                 {
                     Grid.SetColumn(white, FieldColumn);
                     Grid.SetRow(white, FieldRow);
@@ -46,9 +46,9 @@ namespace Checkers
                     white = null;
                 }
             }
-            else if (player2_move && black != null)
+            else if (player2_move)
             {
-                if (FieldColumn - BlackColumn <=1 && BlackColumn - FieldColumn <=1 && FieldRow - BlackRow == 1)
+                if (FieldColumn - BlackColumn <=1 && BlackColumn - FieldColumn <=1 && FieldRow - BlackRow == 1)  // black piece move
                 {
                     Grid.SetColumn(black, FieldColumn);
                     Grid.SetRow(black, FieldRow);
@@ -61,16 +61,23 @@ namespace Checkers
 
         public void White_Click(object sender, EventArgs e)
         {
-            white = (Button)sender;
-            WhiteRow = Grid.GetRow(white);
-            WhiteColumn = Grid.GetColumn(white);
+            if (player1_move)
+            {
+                white = (Button)sender;
+                WhiteRow = Grid.GetRow(white);
+                WhiteColumn = Grid.GetColumn(white);
+
+            }
         }
 
         public void Black_Click(object sender, EventArgs e)
         {
-            black = (Button)sender;
-            BlackRow = Grid.GetRow(black);
-            BlackColumn = Grid.GetColumn(black);
+            if (player2_move)
+            {
+                black = (Button)sender;
+                BlackRow = Grid.GetRow(black);
+                BlackColumn = Grid.GetColumn(black);
+            }
         }
     }
 }
